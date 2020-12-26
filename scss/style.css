@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.container .item2 {
+  width: 700px;
+  display: inline-flex;
+  margin-left: 300px;
+  margin-right: 170px;
+  border: 2px solid #F2F2F2;
+  height: 323px;
+  border-radius: 8px;
+}
+.container .item2 .foto2 {
+  margin-bottom: 60px;
+}
+.container .item2 .foto2 img {
+  width: 346px;
+  height: 319px;
+  border-radius: 5px;
+}
+.container .item2 .discribtion {
+  padding-top: 25px;
+  position: relative;
+}
+.container .item2 .discribtion .names {
+  color: #e05d26;
+  margin-left: 30px;
+  font-weight: 900;
+}
+.container .item2 .discribtion .names1 {
+  color: #e05d26;
+  font-weight: 900;
+  margin-left: 13px;
+}
+.container .item2 .discribtion .name {
+  margin: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #454545;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.container .item2 .discribtion .star-more {
+  color: #e05d26;
+  margin-left: 30px;
+}
+.container .item2 .discribtion .star-single {
+  position: absolute;
+  bottom: 216px;
+  left: 82px;
+  padding-right: 20px;
+}
+.container .item2 .discribtion .vote {
+  color: #454545;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 215px;
+  left: 100px;
+  font-style: italic;
+}
+.container .item2 .discribtion p {
+  color: #454545;
+  margin-left: 30px;
+  font-size: 17px;
+}
+.container .item2 .discribtion .save {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  color: #e05d26;
+  border-color: #e05d26;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.container .item1 {
+  width: 700px;
+  display: inline-flex;
+  margin-left: -300px;
+  margin-right: 250px;
+  margin-top: 50px;
+  border: 2px solid #F2F2F2;
+  height: 323px;
+  border-radius: 8px;
+}
+.container .item1 .foto1 {
+  margin-bottom: 60px;
+}
+.container .item1 .foto1 img {
+  width: 346px;
+  height: 319px;
+  border-radius: 5px;
+}
+.container .item1 .discribtion {
+  padding-top: 25px;
+  position: relative;
+}
+.container .item1 .discribtion .names {
+  color: #e05d26;
+  margin-left: 30px;
+  font-weight: 900;
+}
+.container .item1 .discribtion .names1 {
+  color: #e05d26;
+  font-weight: 900;
+  margin-left: 13px;
+}
+.container .item1 .discribtion .name {
+  margin: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #454545;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.container .item1 .discribtion .star-more {
+  color: #e05d26;
+  margin-left: 30px;
+}
+.container .item1 .discribtion .star-single {
+  position: absolute;
+  bottom: 216px;
+  left: 82px;
+  padding-right: 20px;
+}
+.container .item1 .discribtion .vote {
+  color: #454545;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 215px;
+  left: 100px;
+  font-style: italic;
+}
+.container .item1 .discribtion p {
+  color: #454545;
+  margin-left: 30px;
+  font-size: 17px;
+}
+.container .item1 .discribtion .save {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  color: #e05d26;
+  border-color: #e05d26;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.container .item {
+  border: 2px solid #F2F2F2;
+  border-radius: 10px;
+  width: 350px;
+  margin: 50px 210px;
+}
+.container .item .foto img {
+  width: 346px;
+  height: 319px;
+  border-radius: 5px;
+}
+.container .item .discribtion {
+  padding-top: 25px;
+  position: relative;
+}
+.container .item .discribtion .names {
+  color: #e05d26;
+  margin-left: 30px;
+  font-weight: 900;
+}
+.container .item .discribtion .names1 {
+  color: #e05d26;
+  font-weight: 900;
+  margin-left: 13px;
+}
+.container .item .discribtion .name {
+  margin: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #454545;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.container .item .discribtion .star-more {
+  color: #e05d26;
+  margin-left: 30px;
+}
+.container .item .discribtion .star-single {
+  position: absolute;
+  bottom: 158px;
+  left: 82px;
+  padding-right: 20px;
+}
+.container .item .discribtion .vote {
+  color: #454545;
+  margin-right: 10px;
+  position: absolute;
+  bottom: 158px;
+  left: 100px;
+  font-style: italic;
+}
+.container .item .discribtion p {
+  color: #454545;
+  margin-left: 30px;
+  font-size: 17px;
+}
+.container .item .discribtion .save {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  color: #e05d26;
+  border-color: #e05d26;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
